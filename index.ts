@@ -60,6 +60,16 @@ interface Product {
   price: number;
 }
 
+
+function processValue(value: string | number): number {
+  if (typeof value === 'string') {
+    return value.length;
+  } else {
+    return value * 2;
+  }
+}
+
+
 function getMostExpensiveProduct(products: Product[]): Product | null {
   if (products.length === 0) {
     return null;
