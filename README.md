@@ -16,7 +16,7 @@ Welcome to this **mini TypeScript guide**! A comprehensive guide to key TypeScri
 - [Enums](#-enums-in-typescript)
 - [Type Inference](#-type-inference-in-typescript)
 - [Benefits of TypeScript](#-how-typescript-improves-code-quality)
-- [Union & Intersection Types](#-union-&-intersection-types)
+- [Union & Intersection Types](#-union--intersection-types)
 
 ---
 
@@ -162,7 +162,7 @@ let count = 42; // inferred as number
 
 ## ⚔️ Union & Intersection Types
 
-### ➕ Union (`|`)
+### ➕ Union Types (`|`)
 
 A variable can be **one of many types**.
 
@@ -171,7 +171,7 @@ type Response = "success" | "error";
 let result: Response = "success";
 ```
 
-### 🔗 Intersection (`&`)
+### 🔗 Intersection Types (`&`):
 
 A variable must satisfy **all combined types**.
 
