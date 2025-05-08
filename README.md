@@ -27,9 +27,7 @@ interface User {
 type Admin = {
   role: string;
 };
-```
-
----
+````
 
 We can also combine both:
 
@@ -69,7 +67,7 @@ function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
 | Type      | Description                                                                           |
 | --------- | ------------------------------------------------------------------------------------- |
 | `any`     | Turns off type checking — use with caution!                                           |
-| `unknown` | Safe version of `any` — you must check the type before using it                       |
+| `unknown` | Safe version of `any` — we must check the type before using it                       |
 | `never`   | Represents values that **never occur** (e.g., a function that always throws an error) |
 
 **Examples:**
