@@ -23,11 +23,13 @@ interface User {
   name: string;
   age: number;
 }
+```
 
+```ts
 type Admin = {
   role: string;
 };
-````
+```
 
 You can also combine both:
 
