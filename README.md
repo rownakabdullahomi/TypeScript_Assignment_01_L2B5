@@ -13,7 +13,7 @@ Here's the discussion of some important TypeScript-related questions:
 - [Union & Intersection Types](#-union--intersection-types)
 
 
-````markdown
+
 # 🚀 Mastering TypeScript: Deep Dive into Advanced Concepts
 
 Welcome to this **mini TypeScript guide**! A comprehensive guide to key TypeScript concepts every developer should know. This README explains fundamental TypeScript features with clear examples and best practices.
@@ -41,7 +41,7 @@ type Admin = {
   role: string;
 };
 ```
-````
+
 
 We can also combine both:
 
