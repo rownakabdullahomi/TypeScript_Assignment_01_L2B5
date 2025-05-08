@@ -188,7 +188,7 @@ const admin: AdminUser = {
 
 ## 📌 Final Thoughts
 
-TypeScript is not just a language—it’s a **developer superpower**. By leveraging strong typing, inference, enums, and more, your code becomes **cleaner, safer, and easier to maintain**.
+TypeScript is not just a language—it’s a **developer superpower**. By leveraging strong typing, inference, enums, and more, our code becomes **cleaner, safer, and easier to maintain**.
 
 ---
 
