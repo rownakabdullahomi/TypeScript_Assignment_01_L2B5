@@ -182,7 +182,4 @@ TypeScript is not just a language—it’s a **developer superpower**. By levera
 
 > ⭐ **Found this helpful? Give it a star and share with your dev friends!**
 
-```
 
-Would you like a badge, logo, or visual diagram added for an even more polished GitHub presence?
-```
