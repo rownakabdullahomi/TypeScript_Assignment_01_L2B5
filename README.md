@@ -1,7 +1,11 @@
 
 ![TypeScript Logo](https://cdn.worldvectorlogo.com/logos/typescript.svg)
 
-Here's the discussion of some important TypeScript-related questions: 
+# 🚀 Mastering TypeScript: Deep Dive into Advanced Concepts
+
+Welcome to this **mini TypeScript guide**! A comprehensive guide to key TypeScript concepts every developer should know. This README explains fundamental TypeScript features with clear examples and best practices.
+
+---
 
 ## Table of Contents 📋
 - [Interfaces vs Types](#-interfaces-vs-types-in-typescript)
@@ -11,12 +15,6 @@ Here's the discussion of some important TypeScript-related questions:
 - [Type Inference](#-type-inference-in-typescript)
 - [Benefits of TypeScript](#-how-typescript-improves-code-quality)
 - [Union & Intersection Types](#-union--intersection-types)
-
-
-
-# 🚀 Mastering TypeScript: Deep Dive into Advanced Concepts
-
-Welcome to this **mini TypeScript guide**! A comprehensive guide to key TypeScript concepts every developer should know. This README explains fundamental TypeScript features with clear examples and best practices.
 
 ---
 
