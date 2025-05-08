@@ -5,7 +5,9 @@
 
 Welcome to this **mini TypeScript guide**! A comprehensive guide to key TypeScript concepts every developer should know. This README explains fundamental TypeScript features with clear examples and best practices.
 
+
 ---
+
 
 ## Table of Contents 📋
 - [Interfaces vs Types](#-interfaces-vs-types-in-typescript)
