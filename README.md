@@ -1,7 +1,7 @@
 Here's an engaging and well-structured `README.md` file that answers all your TypeScript-related questions with clarity and visual appeal, perfect for GitHub:
 
 ````markdown
-#🚀 Mastering TypeScript: Deep Dive into Advanced Concepts
+# 🚀 Mastering TypeScript: Deep Dive into Advanced Concepts
 
 Welcome to this **mini TypeScript guide**! If you're looking to level up your TypeScript knowledge or want to brush up on advanced concepts, this readme covers some of the most important topics with real-world examples.
 
