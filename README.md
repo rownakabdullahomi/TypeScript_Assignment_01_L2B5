@@ -27,8 +27,9 @@ interface User {
 type Admin = {
   role: string;
 };
-````
+```
 
+---
 
 We can also combine both:
 
