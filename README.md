@@ -1,21 +1,34 @@
+
+![TypeScript Logo](https://cdn.worldvectorlogo.com/logos/typescript.svg)
+
 Here's the discussion of some important TypeScript-related questions: 
+
+## Table of Contents 📋
+- [Interfaces vs Types](#-interfaces-vs-types-in-typescript)
+- [The keyof Keyword](#-the-keyof-keyword)
+- [Special Types: any, unknown, never](#-special-types-any-unknown-never)
+- [Enums](#-enums-in-typescript)
+- [Type Inference](#-type-inference-in-typescript)
+- [Benefits of TypeScript](#-how-typescript-improves-code-quality)
+- [Union & Intersection Types](#-union--intersection-types)
+
 
 ````markdown
 # 🚀 Mastering TypeScript: Deep Dive into Advanced Concepts
 
-Welcome to this **mini TypeScript guide**! If you're looking to level up your TypeScript knowledge or want to brush up on advanced concepts, this readme covers some of the most important topics with real-world examples.
+Welcome to this **mini TypeScript guide**! A comprehensive guide to key TypeScript concepts every developer should know. This README explains fundamental TypeScript features with clear examples and best practices.
 
 ---
 
 ## 🆚 Interface vs Type — What's the Difference?
 
-Both `interface` and `type` are used to define the shape of an object, but there are subtle differences:
+Both define object shapes but have important differences:
 
-| Feature           | `interface`                          | `type`                                |
-|------------------|--------------------------------------|----------------------------------------|
-| Extending        | Can be extended using `extends` or `implements` | Can use intersections (`&`) for composition |
-| Merging          | Automatically merges declarations    | Cannot merge; re-declaration causes error |
-| Usage Flexibility| Only for object shapes               | Can represent primitives, unions, tuples, etc. |
+| Feature          | `interface`                          | `type`                              |
+|------------------|--------------------------------------|-------------------------------------|
+| Extensibility    | Can be extended (`extends`)          | Uses intersection (`&`)             |
+| Declaration     | Supports merging                    | Cannot be re-declared               |
+| Use Cases       | Better for object shapes            | More flexible (unions, tuples etc.) |
 
 **Example:**
 ```ts
@@ -27,6 +40,7 @@ interface User {
 type Admin = {
   role: string;
 };
+```
 ````
 
 We can also combine both:
