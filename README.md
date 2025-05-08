@@ -18,7 +18,7 @@ Welcome to this **mini TypeScript guide**! A comprehensive guide to key TypeScri
 
 ---
 
-## 🆚 Interface vs Type — What's the Difference?
+## 🆚 Interfaces vs Types in TypeScript
 
 Both define object shapes but have important differences:
 
