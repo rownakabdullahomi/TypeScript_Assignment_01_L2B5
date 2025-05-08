@@ -49,7 +49,7 @@ interface SuperUser extends User, Admin {}
 
 ---
 
-## 🔑 Using `keyof` in TypeScript
+## 🔑 The `keyof` Keyword
 
 The `keyof` keyword creates a union of all property names of a given type.
 
