@@ -23,15 +23,14 @@ interface User {
   name: string;
   age: number;
 }
-```
 
-```ts
 type Admin = {
   role: string;
 };
-```
+````
 
-You can also combine both:
+
+We can also combine both:
 
 ```ts
 interface SuperUser extends User, Admin {}
@@ -54,7 +53,7 @@ type Person = {
 type PersonKeys = keyof Person; // "name" | "age"
 ```
 
-Use it for **dynamic property access** with type safety:
+Used for **dynamic property access** with type safety:
 
 ```ts
 function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
