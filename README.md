@@ -16,7 +16,7 @@ Welcome to this **mini TypeScript guide**! A comprehensive guide to key TypeScri
 - [Enums](#-enums-in-typescript)
 - [Type Inference](#-type-inference-in-typescript)
 - [Benefits of TypeScript](#-how-typescript-improves-code-quality)
-- [Union & Intersection Types](#-union--intersection-types)
+- [Union & Intersection Types](#-union-&-intersection-types)
 
 ---
 
