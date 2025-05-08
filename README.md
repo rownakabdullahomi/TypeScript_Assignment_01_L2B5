@@ -171,7 +171,7 @@ type Response = "success" | "error";
 let result: Response = "success";
 ```
 
-### 🔗 Intersection Types (`&`):
+### 🔗 Intersection Types (`&`)
 
 A variable must satisfy **all combined types**.
 
