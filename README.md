@@ -74,7 +74,7 @@ function getProperty<T, K extends keyof T>(obj: T, key: K): T[K] {
 
 ---
 
-## 🤯 `any` vs `unknown` vs `never`
+## 🤯 Special Types: `any`, `unknown`, `never`
 
 | Type      | Description                                                                           |
 | --------- | ------------------------------------------------------------------------------------- |
@@ -98,7 +98,7 @@ function fail(): never {
 
 ---
 
-## 🎯 Enums — Define Named Constants
+## 🎯 Enums in TypeScript
 
 Enums provide a way to define a set of named constants.
 
